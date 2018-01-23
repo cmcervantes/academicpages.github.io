@@ -7,3 +7,5 @@ venue: "UIUC Deep Learning Workshop"
 date: 2017-10-30
 location: "Urbana, IL"
 ---
+
+Presented work for joint parallel-caption coreference resolution, bridging anaphora, and grounding using bidirectional LSTMs, feed-forward networks, and a setup for multi-task learning.
