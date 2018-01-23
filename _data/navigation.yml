@@ -3,14 +3,14 @@ main:
   - title: "publications"
     url: /publications/
 
+  - title: "github main"
+    url: /github/
+    
   - title: "talks"
     url: /talks/    
 
   - title: "teaching"
     url: /teaching/    
-    
-  - title: "github main"
-    url: /github/
     
   #- title: "Portfolio"
   #  url: /portfolio/
