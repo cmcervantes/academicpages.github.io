@@ -77,14 +77,14 @@ analytics:
 
 
 # Site Author
-author: Christopher Cervantes
+author: "Christopher Cervantes"
   name             : "Your Sidebar Name"
   avatar           : "files/self_3-20.jpg"
   bio              : "I'm a Natural Language Processing student interested in semantics, and I want to develop techniques for text understanding driven by machine learning. My work is at the intersection of computer vision and natural language processing, reasoning over entity mentions in image captions and the visual regions to which they refer."
   location         : "Urbana, IL"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=en&user=Syzo8jwAAAAJ"
-  email            : cmcervantes@gmail.com
+  email            : "cmcervantes@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -97,7 +97,7 @@ author: Christopher Cervantes
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : www.linkedin.com/in/cmcervantes
+  linkedin         : "www.linkedin.com/in/cmcervantes"
   orcid            : 
   pinterest        :
   soundcloud       :
