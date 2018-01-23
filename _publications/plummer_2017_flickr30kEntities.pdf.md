@@ -1,0 +1,9 @@
+---
+title: "Flickr30k Entities: Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models"
+collection: publications
+permalink: /publication/2017-http://cmcervantes.github.io/files/plummer_2017_flickr30kEntities.pdf
+date: 2017
+venue: 'International Journal of Computer Vision '
+citation: 'B. Plummer, L. Wang, C. Cervantes, J. Caicedo, J. Hockenmaier, &amp; S. Lazebnik. (2017) Flickr30k Entities: Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models. International Journal of Computer Vision (IJCV) '
+---
+Recommended citation: B. Plummer, L. Wang, C. Cervantes, J. Caicedo, J. Hockenmaier, & S. Lazebnik. (2017) Flickr30k Entities: Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models. International Journal of Computer Vision (IJCV) 
