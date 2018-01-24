@@ -5,17 +5,22 @@
     author_profile: true
 ---
 
-<p>The github repositories below contain the majority of code written during graduate school in service of the Image Caption projects. While the majority of code began and remained written in Java, the machine learning modules were eventually migrated to Python (using Scikit-Learn and Tensorflow).</p>
+<p>The github repositories below were written for my thesis work: Entity-Based Scene Understanding. This project jointly peformed coreference resolution, bridging anaphora resolution, and grounding (or reference resolution) for image caption datasets (<a href="http://web.engr.illinois.edu/~bplumme2/Flickr30kEntities/">Flickr30k Entities</a> and <a href="http://cocodataset.org/#home">MSCOCO</a>). Specifically, the pipeline required
+<ol>
+    <li>Feature extraction: for all composite tasks, binary, real-valued, and one-hot features were extracted from text</li>
+    <li>Model training and evaluation: all composite tasks required training and evaluation of linear models (particularly logistic regression) and neural models (of which the central component were bidirectional LSTMs)</li>
+    <li>Inference: coreference and bridging operate over the space of entity mentions (noun phrases), and grounding operates over the space of mentions and image regions; both require inference to produce consistent graphs, which we framd as an integer linear program</li>
+</ol>
 
 <h2>ImageCaptionLearn (<a href="https://github.com/cmcervantes/ImageCaptionLearn">repo</a>) </h2>
-<p>ImageCaptionLearn is the main Java application for handling image caption data (e.g. Flickr30k Entities, MSCOCO), generating features from that data, and performing integer linear programming inference (using Gurobi).</p>
+<p>ImageCaptionLearn is the main Java application for handling image caption data; this project handles various preprocessing tasks, feature extraction, and inference (ILP problems are solved with Gurobi).</p>
 
 <h2>ImageCaptionTools (<a href="https://github.com/cmcervantes/ImageCaptionTools">repo</a>) </h2>
 <p>ImageCaptionTools is an integral component of the overall ImageCaptionLearn project, contianing all of the various utilities and structures needed to manipulate image caption data. The Tools were put into their own project, rather than being included in Learn, to allow other lab members to more easily incorporate the image caption structures without needing to include all the preprocessing and inference code present in Learn.</p>
 
 <h2>ImageCaptionLearn_py (<a href="https://github.com/cmcervantes/ImageCaptionLearn_py">repo</a>)</h2>
-<p>ImageCaptionLearn_py contains all the code needed to train models (both standard classification and neural networks).</p>
+<p>ImageCaptionLearn_py contains all the code needed to train models in Python, primarily using Scikit-Learn and Tensorflow.</p>
 
 <h2>ImageCaptionAnnotation (<a href="https://github.com/cmcervantes/ImageCaptionAnnotation">repo</a>)</h2>
-<p>ImageCaptionAnnotation was originally written in service of the Flickr30kEntities v2 re-annotation effort, intended to allow multiple users to clean up image caption annotations by hand. Using JavaScript and PHP, these pages display image caption data and enable users to re-annotate that data and push their changes to a database.</p>
+<p>The PHP and JavaScript pages in ImageCaptionAnnotation were originally written as part of an effort to re-annotate Flickr30k Entities (into Flickr30k Entities v2). This project enabled users to review and edit image caption annotations by hand, automatically saving those edits to a MySQL database..</p>
 
