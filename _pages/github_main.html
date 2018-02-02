@@ -5,11 +5,19 @@
     author_profile: true
 ---
 
-<p>The github repositories below were written for my thesis work: Entity-Based Scene Understanding. This project jointly peformed coreference resolution, bridging anaphora resolution, and grounding (or reference resolution) for image caption datasets (<a href="http://web.engr.illinois.edu/~bplumme2/Flickr30kEntities/">Flickr30k Entities</a> and <a href="http://cocodataset.org/#home">MSCOCO</a>). Specifically, the pipeline required
+<p>The github repositories below were written for my thesis work:
+    Entity-Based Scene Understanding for Flickr30k and MSCOCO.
+    This project jointly peformed coreference resolution,
+    bridging anaphora resolution, and grounding (or
+    reference resolution) for image caption datasets
+    (<a href="http://web.engr.illinois.edu/~bplumme2/Flickr30kEntities/">
+    <u>Flickr30k Entities</u></a> and
+    <a href="http://cocodataset.org/#home"><u>MSCOCO</u></a>).
+    Specifically, my projects include components for
 <ol>
-    <li>Feature extraction: for all composite tasks, binary, real-valued, and one-hot features were extracted from text</li>
-    <li>Model training and evaluation: all composite tasks required training and evaluation of linear models (particularly logistic regression) and neural models (of which the central component were bidirectional LSTMs)</li>
-    <li>Inference: coreference and bridging operate over the space of entity mentions (noun phrases), and grounding operates over the space of mentions and image regions; both require inference to produce consistent graphs, which we framd as an integer linear program</li>
+    <li><b>Feature extraction</b>: for all composite tasks, binary, real-valued, and one-hot features were extracted from text</li>
+    <li><b>Model training and evaluation</b>: all composite tasks required training and evaluation of linear models (particularly logistic regression) and neural models (of which the central component were bidirectional LSTMs)</li>
+    <li><b>Inference</b>: coreference and bridging operate over the space of entity mentions (noun phrases), and grounding operates over the space of mentions and image regions; both require inference to produce consistent graphs, which we framd as an integer linear program</li>
 </ol>
 
 <div class="{{ include.type | default: "list" }}__item">
