@@ -5,6 +5,9 @@
     author_profile: true
 ---
 
+<div class="{{ include.type | default: "list" }}__item">
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
 <p>The github repositories below were written for my thesis work: Entity-Based Scene Understanding. This project jointly peformed coreference resolution, bridging anaphora resolution, and grounding (or reference resolution) for image caption datasets (<a href="http://web.engr.illinois.edu/~bplumme2/Flickr30kEntities/">Flickr30k Entities</a> and <a href="http://cocodataset.org/#home">MSCOCO</a>). Specifically, the pipeline required
 <ol>
     <li>Feature extraction: for all composite tasks, binary, real-valued, and one-hot features were extracted from text</li>
@@ -23,4 +26,9 @@
 
 <h2 class="archive__item-title" itemprop="headline"><a href="https://github.com/cmcervantes/ImageCaptionAnnotation">ImageCaptionAnnotation</a></h2>
 <p>The PHP and JavaScript pages in ImageCaptionAnnotation were originally written as part of an effort to re-annotate Flickr30k Entities (into Flickr30k Entities v2). This project enabled users to review and edit image caption annotations by hand, automatically saving those edits to a MySQL database.</p>
+
+
+    </article>
+</div>
+
 
