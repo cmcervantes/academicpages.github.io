@@ -1,0 +1,6 @@
+Publications rely on two layout files
+
+_layouts/single.html
+_includes/archive-single.html
+
+So.. note those.

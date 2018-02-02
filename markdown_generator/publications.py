@@ -52,7 +52,7 @@ html_escape_table = {
 
 def html_escape(text):
     """Produce entities within text."""
-    return "".join(html_escape_table.get(c,c) for c in text)
+    return "".join(html_escape_table.get(c,c) for c in str(text))
 
 
 # ## Creating the markdown files
@@ -81,7 +81,8 @@ for row, item in publications.iterrows():
     
     md += "\ndate: " + str(item.pub_date) 
     
-    md += "\nvenue: '" + html_escape(item.venue) + "'"
+    if len(str(item.venue)) > 5:
+        md += "\nvenue: '" + html_escape(item.venue) + "'"
     
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
