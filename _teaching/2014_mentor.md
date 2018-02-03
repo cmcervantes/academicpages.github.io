@@ -8,5 +8,5 @@ date: 2014-01-16
 location: "Urbana, IL"
 ---
 
-Independently lectured, led discussions, and presented papers to help undergraduates engage in research
+Independently lectured, led discussions, and presented papers to help undergraduates engage in research.
 

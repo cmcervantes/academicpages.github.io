@@ -1,7 +1,7 @@
 title	type	url_slug	venue	date	location	talk_url	description
 Entity Based Visual Scene Understanding	Talk	entity_based	UIUC Deep Learning Workshop	2017-10-30	Urbana, IL		Presented work for joint parallel-caption coreference resolution, bridging anaphora, and grounding using bidirectional LSTMs, feed-forward networks, and a setup for multi-task learning.
-Flickr30k Entities	Poster	flickr30kEntities	Conference on Computer Vision and Pattern Recognition Workshop of the Future of Computer Vision Datasets	2015-06-11	Boston, MA		Presented the poster version of the ICCV paper introducing Flickr30k Entities 
+Flickr30k Entities	Poster	flickr30kEntities	Conference on Computer Vision and Pattern Recognition Workshop of the Future of Computer Vision Datasets	2015-06-11	Boston, MA		Presented the poster version of the ICCV paper introducing Flickr30k Entities.
 Entity Prediction from Parallel Image Captions	Poster	entity_pred	Amazon Graduate Research Symposium	2015-12-04	Seattle, WA		Presented ongoing work with parallel-caption coreference resolution, leveraging classic linear classification schemes and rule-based anaphora resolution heuristics.
-Narrative Fragment Creation: An Approach for Learning Narrative	Talk	narrative	Conference on Advances in Cognitive Systems	2013-12-13	Baltimore, MD		Presented the paper of the same name at ACS 2013
+Narrative Fragment Creation: An Approach for Learning Narrative	Talk	narrative	Conference on Advances in Cognitive Systems	2013-12-13	Baltimore, MD		Presented the paper of the same name at ACS 2013.
 
 

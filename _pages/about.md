@@ -16,7 +16,9 @@ for Flickr30k and MSCOCO -- focuses on identifying the entities in a
 scene from an image with multiple descriptions. Specifically, this project 
 predicts mutually consistent coreference and bridging relations between 
 noun phrases as well as associations between those phreases and the image 
-regions to which they refer. As pat of this project, I have
+regions to which they refer. 
+
+As pat of this project, I have
 * Managed large datasets (millions of examples) with MySQL and SQLite databases
 * Created interactive web pages (using JavaScript and PHP) enabling 
   users to produce detailed image caption annotations
@@ -34,7 +36,7 @@ while putting into practice topics I learned in my courses at UIUC:
 machine learning, NLP, computer vision, and deep learning.
 
 This site hosts my [publications](http://cmcervantes.github.io/publications/), 
-[github main page](http://cmcervantes.github.io/github_main/), 
+[github main page](http://cmcervantes.github.io/github/), 
 [talks](http://cmcervantes.github.io/talks/), and 
 [teaching experience](http://cmcervantes.github.io/teaching/). 
 
