@@ -22,8 +22,8 @@ regions to which they refer. As pat of this project, I have
   users to produce detailed image caption annotations
 * Analayzed and extracted features for image caption data using Java 
   Java NLP libraries like 
-  [Stanford CoreNLP][https://stanfordnlp.github.io/CoreNLP/] 
-  and [Illinois CogComp][https://github.com/CogComp/cogcomp-nlp]
+  [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/) 
+  and [Illinois CogComp](https://github.com/CogComp/cogcomp-nlp)
 * Implemented linear classifiers (using Scikit-Learn) and neural 
   classifiers (using TensorFlow); incorporated classifier predictions in
   integer linear program inference (solved with Gurobi)
@@ -33,5 +33,8 @@ used during my time in industry -- particularly Java and Python development --
 while putting into practice topics I learned in my courses at UIUC:
 machine learning, NLP, computer vision, and deep learning.
 
-This site hosts my publications, [github main page][http://cmcervantes.github.io/github_main/], talks, and teaching experience. 
+This site hosts my [publications](http://cmcervantes.github.io/publications/), 
+[github main page](http://cmcervantes.github.io/github_main/), 
+[talks](http://cmcervantes.github.io/talks/), and 
+[teaching experience](http://cmcervantes.github.io/teaching/). 
 
