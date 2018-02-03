@@ -13,14 +13,14 @@ My current work at the University of Illinois at Urbana-Champagn focuses
 on the intersection between natural language processing (NLP) and 
 computer vision. My Master's thesis work -- Entity-Based Scene Understanding
 for Flickr30k and MSCOCO -- focuses on identifying the entities in a 
-scene from an image with multiple description. Specifically, this project 
+scene from an image with multiple descriptions. Specifically, this project 
 predicts mutually consistent coreference and bridging relations between 
 noun phrases as well as associations between those phreases and the image 
 regions to which they refer. As pat of this project, I have
-* Managed large datasets (millions of examples) with MySql and SQLite databases
+* Managed large datasets (millions of examples) with MySQL and SQLite databases
 * Created interactive web pages (using JavaScript and PHP) enabling 
   users to produce detailed image caption annotations
-* Analayzed and extracted features for image caption data using Java 
+* Analayzed and extracted features for image caption data using 
   Java NLP libraries like 
   [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/) 
   and [Illinois CogComp](https://github.com/CogComp/cogcomp-nlp)

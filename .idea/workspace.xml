@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10a617ac-8892-4a96-95ae-0f84b7ed5b7a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_pages/about.md" afterPath="$PROJECT_DIR$/_pages/about.md" />
     </list>
     <ignored path="cmcervantes.github.io.iws" />
@@ -38,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/_pages/about.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="544">
-                <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+              <first_editor relative-caret-position="323">
+                <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -264,12 +263,12 @@
       <option name="presentableId" value="Default" />
       <updated>1517599104405</updated>
       <workItem from="1517599106396" duration="560000" />
-      <workItem from="1517599824508" duration="3173000" />
+      <workItem from="1517599824508" duration="3449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3733000" />
+    <option name="totallyTimeSpent" value="4009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -384,8 +383,8 @@
     <entry file="file://$PROJECT_DIR$/_pages/about.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="544">
-            <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+          <first_editor relative-caret-position="323">
+            <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
             <folding />
           </first_editor>
           <second_editor />
