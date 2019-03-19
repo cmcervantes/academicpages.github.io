@@ -8,11 +8,22 @@ redirect_from:
   - /about.html
 ---
 
+My current work at HERE Technologies centers on deriving meaning from natural 
+language to augment and integrate with knowledge representations for human-centric 
+spatial understanding (that is, using unstructured text to help represent places 
+and their semantic relationships). This work incorporates large graph databases (like 
+[Neo4j](https://neo4j.com/)), external knowledge bases 
+(like [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)), and a host of 
+natural language processing (NLP) and machine learning (ML) tools and techniques, from
+[NTLK](https://www.nltk.org/) to [Tensorflow](https://www.tensorflow.org/) and others. 
 
-My current work at the University of Illinois at Urbana-Champagn focuses 
+
+--- 
+
+My thesis work at the University of Illinois at Urbana-Champagn focused 
 on the intersection between natural language processing (NLP) and 
-computer vision. My Master's thesis work -- Entity-Based Scene Understanding
-for Flickr30k and MSCOCO -- focuses on identifying the entities in a 
+computer vision. My Master's thesis -- Entity-Based Scene Understanding
+for Flickr30k and MSCOCO -- defined a process for identifying the entities in a 
 scene from an image with multiple descriptions. Specifically, this project 
 predicts mutually consistent coreference and bridging relations between 
 noun phrases as well as associations between those phreases and the image 
