@@ -169,7 +169,7 @@ kramdown:
 
 # Collections
 collections:
-  talks_teaching:
+  talks_teach:
     output: true
     permalink: /:collection/:path/
   patents_pubs:

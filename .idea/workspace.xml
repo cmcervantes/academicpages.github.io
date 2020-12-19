@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10a617ac-8892-4a96-95ae-0f84b7ed5b7a" name="Default" comment="WIP: 2020 updates">
-      <change afterPath="$PROJECT_DIR$/_pages/talks_teach.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/talks_teaching.html" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/talks_teach_backup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/patents_pubs.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/patents_pubs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_portfolio/portfolio-1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_portfolio/portfolio-2.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -712,7 +714,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608409627132</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="WIP: 2020 updates">
+      <created>1608410306514</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608410306514</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -731,14 +740,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="WIP: 2020 updates" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1608409626911">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1608410306236">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1608409626911" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608409657406">
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1608410306236" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608410312441">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608409657406" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608410312441" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
