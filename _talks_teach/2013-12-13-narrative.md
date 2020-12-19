@@ -1,8 +1,8 @@
 ---
 title: "Narrative Fragment Creation: An Approach for Learning Narrative"
-collection: talks
+collection: talks_teach
 type: "Talk"
-permalink: /talks/2013-12-13-narrative
+permalink: /talks_teach/2013-12-13-narrative
 venue: "Conference on Advances in Cognitive Systems"
 date: 2013-12-13
 location: "Baltimore, MD"

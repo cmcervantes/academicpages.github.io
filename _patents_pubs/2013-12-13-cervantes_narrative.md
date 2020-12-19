@@ -1,7 +1,7 @@
 ---
 title: "Narrative Fragment Creation: An Approach for Learning Narrative Knowledge"
-collection: publications
-permalink: /publication/2013-12-13-cervantes_narrative
+collection: patents_pubs
+permalink: /patents_pubs/2013-12-13-cervantes_narrative
 excerpt: 'We propose the narrative fragment - a sequence of story events - and a method for automatically creating these fragments with narrative generation through partial order planning and analysis through n-gram modeling. The generated plans establish causal and temporal relationships, and by modeling those relationships and creating fragments, our system learns narrative knowledge.'
 date: 2013-12-13
 venue: 'Advances in Cognitive Systems'

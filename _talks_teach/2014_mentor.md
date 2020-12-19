@@ -1,8 +1,8 @@
 ---
 title: "Mentor for Undergraduate Research"
-collection: teaching
+collection: talks_teach
 type: "Undergraduate Mentoring"
-permalink: "/teaching/2014_mentor"
+permalink: "/talks_teach/2014_mentor"
 venue: "University of Illinois at Urbana-Champaign, Computer Science"
 date: 2014-01-16
 location: "Urbana, IL"

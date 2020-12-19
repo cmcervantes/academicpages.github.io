@@ -1,8 +1,8 @@
 ---
 title: "Teaching Assistant for Machine Learning for Natural Language Processing"
-collection: teaching
+collection: talks_teach
 type: "Graduate course"
-permalink: "/teaching/2015-ml_for_nlp"
+permalink: "/talks_teach/2015-ml_for_nlp"
 venue: "University of Illinois at Urbana-Champaign, Computer Science"
 date: 2018-01-16
 location: "Urbana, IL"

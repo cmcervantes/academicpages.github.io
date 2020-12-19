@@ -1,8 +1,8 @@
 ---
 title: "Entity Prediction from Parallel Image Captions"
-collection: talks
+collection: talks_teach
 type: "Poster"
-permalink: /talks/2015-12-04-entity_pred
+permalink: /talks_teach/2015-12-04-entity_pred
 venue: "Amazon Graduate Research Symposium"
 date: 2015-12-04
 location: "Seattle, WA"

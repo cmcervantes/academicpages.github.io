@@ -1,8 +1,8 @@
 ---
 title: "Teaching Assistant for Introduction to Natural Language Processing"
-collection: teaching
+collection: talks_teach
 type: "Undergraduate course"
-permalink: "/teaching/2015-intro_to_nlp"
+permalink: "/talks_teach/2015-intro_to_nlp"
 venue: "University of Illinois at Urbana-Champaign, Computer Science"
 date: 2015-08-16
 location: "Urbana, IL"

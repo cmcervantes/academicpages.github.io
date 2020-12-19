@@ -1,8 +1,8 @@
 ---
 title: "Flickr30k Entities"
-collection: talks
+collection: talks_teach
 type: "Poster"
-permalink: /talks/2015-06-11-flickr30kEntities
+permalink: /talks_teach/2015-06-11-flickr30kEntities
 venue: "Conference on Computer Vision and Pattern Recognition Workshop of the Future of Computer Vision Datasets"
 date: 2015-06-11
 location: "Boston, MA"
