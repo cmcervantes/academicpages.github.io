@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10a617ac-8892-4a96-95ae-0f84b7ed5b7a" name="Default" comment="WIP: 2020 updates">
+      <change afterPath="$PROJECT_DIR$/_patents_pubs/2020-01-patent-16-774315.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_patents_pubs/2020-12-patent-17-116717.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_patents_pubs/2020-12-patent-17-116727.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_patents_pubs/2020-12-patent-17-116743.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_patents_pubs/2020-12-patent-17-116756.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/test.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/test.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/single.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +50,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="FullScreen" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_patents_pubs" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_patents_pubs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_talks_teach" />
     </key>
@@ -732,7 +741,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608411434506</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="WIP: 2020 updates">
+      <created>1608412384346</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608412384346</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -751,14 +767,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="WIP: 2020 updates" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1608411434307">
+    <state x="393" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608413369551">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1608411434307" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608411436609">
+    <state x="393" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1608413369551" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1608412383899">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608411436609" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1608412383899" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608412387071">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608412387071" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
