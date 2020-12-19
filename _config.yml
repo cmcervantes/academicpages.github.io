@@ -169,16 +169,13 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  talks_teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
+  patents_pubs:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
+  projects:
     output: true
     permalink: /:collection/:path/
 
@@ -203,28 +200,19 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _patents_pubs
   - scope:
       path: ""
-      type: publications
+      type: patents_pubs
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _projects
   - scope:
       path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
       author_profile: true
@@ -233,7 +221,7 @@ defaults:
   # _talks_teach
   - scope:
       path: ""
-      type: talks
+      type: talks_teach
     values:
       layout: talk
       author_profile: true
@@ -249,7 +237,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
