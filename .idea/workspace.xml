@@ -753,7 +753,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608414223270</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="WIP: 2020 updates">
+      <created>1608414754414</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608414754414</updated>
+    </task>
+    <task id="LOCAL-00011" summary="WIP: 2020 updates">
+      <created>1608414889494</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608414889494</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -776,14 +790,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="393" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1608413369551" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1608414754115">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1608414889273">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1608414754115" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608414757839">
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1608414889273" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608414893326">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608414757839" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608414893326" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
