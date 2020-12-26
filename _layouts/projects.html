@@ -42,9 +42,9 @@ related
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.start_date %}<meta itemprop="dateStart" content="{{ page.start_date | date: "%B, %Y" }}">{% endif %}
-    {% if page.end_date %}<meta itemprop="dateEnd" content="{{ page.end_date | date: "%B, %Y" }}">{% endif %}
-    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.start_date %}<meta itemprop="dateStart" content="{{ page.start_date | date: '%B, %Y' }}">{% endif %}
+    {% if page.end_date %}<meta itemprop="dateEnd" content="{{ page.end_date | date: '%B, %Y' }}">{% endif %}
+    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: '%B %d, %Y' }}">{% endif %}
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
@@ -58,7 +58,9 @@ related
         {% endif %}
 
         {% if page.start_date and page.end_date %}
-          <p><strong>From:</strong> {{ page.start_date }} <strong>To:</strong> {{ page.end_date }}</p>
+          <p>biff</p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "From:" }}</strong> <time datetime="{{ post.start_date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.start_date | default: "1900-01-01" | date: "%B, %Y" }}</time></p>
+        {% endif %}
 
         <!--
         {% if page.collection == 'teaching' %}

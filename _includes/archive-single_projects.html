@@ -1,0 +1,106 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+    <!-- Title -->
+    <h2>{{ title }}</h2>
+
+    <!-- Date; formatted depending on what we have-->
+    {% if post.start_date and post.end_date %}
+      <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i></strong>
+        <time datetime="{{ post.start_date | default: '1900-01' | date_to_xmlschema }}">
+          {{ post.start_date | default: "1900-01" | date: "%B, %Y" }}</time>
+        <strong> &mdash; </strong>
+        <time datetime="{{ post.end_date | default: '1900-01' | date_to_xmlschema }}">
+          {{ post.end_date | default: "1900-01" | date: "%B, %Y" }}</time>
+      </p>
+    {% elsif post.start_date %}
+      <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i></strong>
+        <time datetime="{{ post.start_date | default: '1900-01' | date_to_xmlschema }}">
+          {{ post.start_date | default: "1900-01" | date: "%B, %Y" }}</time>
+        <strong> &mdash; </strong> Present
+      </p>
+    {% elsif post.end_date %}
+      <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i></strong>
+        <time datetime="{{ post.end_date | default: '1900-01' | date_to_xmlschema }}">
+          {{ post.end_date | default: "1900-01" | date: "%B, %Y" }}</time>
+      </p>
+	{% endif %}
+
+    <!---Executive Summary--->
+    {% if post.exec_summary %}
+      <p><strong>Executive Summary</strong><br/>
+        {{ post.exec_summary | markdownify }}
+      </p>
+    {% endif %}
+
+    <!-- Image -->
+    {% if post.image_url %}
+       <img src="{{ post.image_url }}" style="width:auto;height:auto;margin-left:auto;margin-right:auto;">
+      <!-- Here I'm taking advantage of the fact that while I should be able to
+           CSS my way to spacing, div insists on creating some vertical space -->
+      <div>&nbsp;</div>
+    {% endif %}
+
+    <!---Academic Summary--->
+    {% if post.academic_summary %}
+      <p><strong>Academic Summary</strong><br/>
+        {{ post.academic_summary | markdownify }}
+      </p>
+    {% endif %}
+
+    <!-- Technology Used -->
+    {% if post.tech_used %}
+      <p><strong>Technology Used</strong>
+        <div style="margin-left:25px;margin-top:0px;padding:0;border:none">
+        {% for tech in post.tech_used %}
+          {{ tech }} |
+        {% endfor %}
+        </div>
+      </p>
+    {% endif %}
+
+    <!-- Associated Link -->
+    {% if post.related_links %}
+      <p>See also:
+      {% for rel_link in post.related_links %}
+        {% assign link_parts = rel_link | split: "/" %}
+        <a href="{{ rel_link }}"><u>{{ link_parts.last }}</u></a> |
+      {% endfor %}
+      </p>
+    {% endif %}
+
+    <!-- Github -->
+    {% if post.github_link %}
+      <p><a href="post.github_link"><u><strong>Repository</strong></u></a></p>
+    {% endif %}
+
+  </article>
+</div>
+
+

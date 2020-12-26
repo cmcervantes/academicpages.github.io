@@ -26,9 +26,12 @@ There is one logistical issue with a ready-to-fork template theme like academic 
 To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
 
 # Instructions for Updating
-1. New sections require
+1. New website sections require
     - Update navigation.yml (for the top line menu)
     - Add a new directory _<name>
     - Add a new markdown page to _pages/ which will include a permalink and for post in sites.<name>
     - Update _config.yml (for... reasons? Telling the rest of this where to find things?)
-
+1. New page sections require
+    - Remember that your pages are in _pages/ (as above), and those pages will likely reference a list of posts with an include; that include is the formatting page
+    - So in order to adjust the formatting for each post, you need to change / create a new include/*.html file
+    - Also note that in that new include html, attributes are in "post.XXX" _not_ "page.XXX"

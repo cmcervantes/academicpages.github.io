@@ -1,0 +1,77 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+    <!-- Title -->
+    <h2>{{ title }}</h2>
+    <!-- Role-->
+    {% if post.role %}
+      <h3 style="margin-top:0;">{{ post.role }}</h3>
+    {% endif %}
+
+    <!-- Date; formatted depending on what we have-->
+
+    <!-- Venue and Location; add the date as well if provided (but within the same paragraph tag) -->
+    {% if post.location or post.start_date or post.date %}
+        <p>
+    {% endif %}
+    {% if post.venue and post.location %}
+      {{ post.venue }} <br/>{{ post.location }}<br/>
+    {% elsif post.location %}
+      {{ post.location }}<br/>
+    {% endif %}
+    {% if post.start_date and post.end_date %}
+      <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+        <time datetime="{{ post.start_date | default: '1900-01' | date_to_xmlschema }}">
+          {{ post.start_date | default: "1900-01" | date: "%B, %Y" }}</time>
+        <strong> &mdash; </strong>
+        <time datetime="{{ post.end_date | default: '1900-01' | date_to_xmlschema }}">
+          {{ post.end_date | default: "1900-01" | date: "%B, %Y" }}</time>
+    {% elsif post.start_date %}
+      <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+        <time datetime="{{ post.start_date | default: '1900-01' | date_to_xmlschema }}">
+          {{ post.start_date | default: "1900-01" | date: "%B, %Y" }}</time>
+        <strong> &mdash; </strong> Present
+    {% elsif post.date %}
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+          <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">
+          {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
+	{% endif %}
+    {% if post.location or post.start_date or post.date %}
+        </p>
+    {% endif %}
+
+
+    {% if post.content %}
+      <p>{{ post.content | markdownify }}</p>
+    {% endif %}
+
+  </article>
+</div>
+
+

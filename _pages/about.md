@@ -8,46 +8,27 @@ redirect_from:
   - /about.html
 ---
 
-My current work at HERE Technologies centers on deriving meaning from natural 
-language to augment and integrate with knowledge representations for human-centric 
-spatial understanding (that is, using unstructured text to help represent places 
-and their semantic relationships). This work incorporates large graph databases (like 
-[Neo4j](https://neo4j.com/)), external knowledge bases 
-(like [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)), and a host of 
-natural language processing (NLP) and machine learning (ML) tools and techniques, from
-[NTLK](https://www.nltk.org/) to [Tensorflow](https://www.tensorflow.org/) and others. 
+I am a senior artificial intelligence researcher focusing on natural language processing (NLP) 
+and computer vision. 
 
+Over the course of my career I've gained experience in all parts of the 
+software development lifecycle, from requirements gathering to development to QA, but my real 
+strength is the research and development of state-of-the-art solutions to unique and
+challenging problems. In my current role at HERE Technologies, I've presented complex 
+material to technical and non-technical audiences, mentored junior researchers, 
+worked in global, cross-functional teams to define business needs, and applied 
+novel machine learning approaches to solve complex problems and provide actionable insights.
 
---- 
+Though I chose to leave my Ph.D. program with an M.S. degree, I am passionate about 
+advancing the cutting edge in artificial intelligence research (particularly NLP) 
+and bringing those technologies to bear on complex, open-ended problems. My Master's thesis, 
+[Entity-Based Scene Understanding for Flickr30k and MSCOCO](/projects/2018-02_entity-based-scene-understanding), 
+explored techniques for joint coreference resolution and grounding text to images. 
+My more recent work has focused on understanding spatial representations from text descriptions 
+and leveraging knowledge graphs to improve semantic search.
 
-My thesis work at the University of Illinois at Urbana-Champagn focused 
-on the intersection between natural language processing (NLP) and 
-computer vision. My Master's thesis -- Entity-Based Scene Understanding
-for Flickr30k and MSCOCO -- defined a process for identifying the entities in a 
-scene from an image with multiple descriptions. Specifically, this project 
-predicts mutually consistent coreference and bridging relations between 
-noun phrases as well as associations between those phreases and the image 
-regions to which they refer. 
+---
 
-As pat of this project, I have
-* Managed large datasets (millions of examples) with MySQL and SQLite databases
-* Created interactive web pages (using JavaScript and PHP) enabling 
-  users to produce detailed image caption annotations
-* Analayzed and extracted features for image caption data using 
-  Java NLP libraries like 
-  [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/) 
-  and [Illinois CogComp](https://github.com/CogComp/cogcomp-nlp)
-* Implemented linear classifiers (using Scikit-Learn) and neural 
-  classifiers (using TensorFlow); incorporated classifier predictions in
-  integer linear program inference (solved with Gurobi)
-
-Working on this project has enabled me to continue to develop the skills I
-used during my time in industry -- particularly Java and Python development -- 
-while putting into practice topics I learned in my courses at UIUC:
-machine learning, NLP, computer vision, and deep learning.
-
-This site hosts my [publications](http://cmcervantes.github.io/publications/), 
-[github main page](http://cmcervantes.github.io/github/), 
-[talks](http://cmcervantes.github.io/talks/), and 
-[teaching experience](http://cmcervantes.github.io/teaching/). 
+This site hosts my [projects](/projects/), [patents and publications](/patents_pubs/),
+[talks and teaching](/talks_teach/), and [service and leadership experience](/service_leadership/).
 
